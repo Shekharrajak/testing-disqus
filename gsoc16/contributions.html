@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Shekhar Prasad Rajak, GSoC'16, SymPy,Open Source Developer, CGBSE topper">
+
+		<meta http-equiv = "Content-Type" content = "text/html; charset = utf-8" />
+		<title>Contribution to SymPy</title>
+		<meta name="keywords" content="GSoC 2016 , Google Summer of Code,
+		Shekhar, Shekhar Prasad, Shekhar Prasad Rajak, NITW , NIT Warangal, Arjunda, CGBSE Topper, Blog, SymPy,
+		B.Tech CSE, Open Source, Contributor" />
+		<meta name="author" content="Shekhar Prasad Rajak" />
+		<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../css/component.css" />
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<script type = "text/javascript">
+			 $(window).load(function() {
+					$(".bg_loader").delay(500).fadeOut(500);
+			 });
+		</script>
+		  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+		<style>
+		/*LOADER*/
+			 .bg_loader { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #373B44; z-index: 9999; width: 100%; height: 100%; }
+			 .loader { position: absolute; z-index: 10000; width: 30px; height: 30px; top: 50%; left: 50%; margin:-15px 0 0 -15px; border: 3px solid #fff; opacity: 0;
+			 -webkit-border-radius: 30px;
+			 border-radius: 30px;
+			 -webkit-animation: loader 2s ease-out;
+			 animation: loader 2s ease-out;
+			 -webkit-animation-iteration-count: infinite;
+			 animation-iteration-count: infinite;
+			 }
+
+			 @-webkit-keyframes loader {
+			 0% { -webkit-transform: scale(0.1); opacity: 0; }
+			 50% { opacity: 1; }
+			 100%  { -webkit-transform: scale(1.2); opacity: 0; }
+			 }
+			 @keyframes loader {
+			 0% { transform: scale(0.1); opacity: 0; }
+			 50% { opacity: 1; }
+			 100%  { transform: scale(1.2); opacity: 0; }
+			 }
+
+			 body {
+            font-family: Ubuntu, "times new roman", times, roman, serif;
+         }
+		</style>
+		<link rel="shortcut icon" href="../../img/spr.png">
+	</head>
+	<body class="demo-6">
+	<div class="bg_loader"><div class="loader"></div></div>
+		<div id="container" class="container intro-effect-grid">
+			<!-- Top Navigation -->
+			
+			<header class="header">
+				<ul class="grid">
+					<a href="#"><li><h2></h2></li></a>
+				</ul>
+				<!-- <div class="bg-img" style="background-color:#2C3E50"><img src="../img/" alt="Background Image"/></div> -->
+				<div class="bg-img" style="background-color:#2C3E50"></div>
+
+			<div class="title">
+					
+					<h1>Contribution before GSoC 2016</h1>
+					<p class="subline"> Organization : SymPy </p>
+					<p>by <strong>Shekhar Prasad Rajak</strong> &#8212; Posted in on <strong>Apr 25, 2016</strong></p>
+					<a href="../index.html" style="margin-right:50%;">
+				      Back to main Blog
+				    </a>
+				    <a href="subcat.html" style="margin-left:0%;">
+				      Back to GSoC
+				    </a>
+				</div>
+			</header>
+			<button class="trigger" data-info="Go Down"><span>&#9660;</span></button>
+			<article class="content">
+				<div>
+					<h3>SymPy :</h3>
+					<p> <a href="http://www.sympy.org/en/index.html"> SymPy </a>is a Python library for symbolic mathematics. It aims to become a full-featured Computer Algebra System (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible.</p>
+					<p></p>
+					<p>
+					It was month of August 2015, when I was learning new libraries in python and somehow reached at Amit's blog about SymPy and his contribution to SymPy. I am very much interested in Mathematics so it was pretty amazing to see how SymPy is solving equations and doing mathematics using python.
+					</p>
+					<p></p>
+					<h3> Joined gitter chat room :</h3>
+					<p> The time I joined SymPy gitter chat room, I found many active contributors/developers replying the questions and discussing ideas. I didn't know how SymPy works and didn't work in Python previously. I started reading Documentations and Wiki Pages present in SymPy repository in github. I watched the videos and tried some problems myself, but doing only these things would not help.
+					<br>I started participating in gitter chat discussion, give answer whatever I knew and questioned whenever I had doubts. These became my everyday work.<br>
+					Slowly I understood the modules and code organization of SymPy.But there were still something I didn't know, that's why I was not able to send any patches/Pull Request in github SymPy repo till Nov-Dec 2015.
+
+					</p>
+
+					<p></p>
+					<h3>Started sending Pull Request </h3>
+					<p>
+						I had been active in SymPy gitter chat room for around 3 month but still struggling to fix a bug.
+						I tried most of the easy bugs but didn't understand where is the problem in the code.</p>
+					<p> So I started fixing Documentation bugs and formating. But I wanted to fix bugs related to code. </p>
+					<p> One day someone was discussing about debugger tool. He was also getting difficuly in understanding the code. I read some articles and started using PuDB.</p>
+					<p>PuDB works very well and easy to work with it. I restarted exploring the easy bugs and using debugger it was pretty easy to detect the line where the problem was.</p>
+
+					<h3>Contribution started now </h3>
+					<p> Okay, so after learning these manything I was very much intersted about SymPy, because I almost understood how the Open Source Developers work. I enjoyed my days fixing/trying to fix bugs in SymPy. All the day I think about the bug and try to solve them. I enjoyed a lot in this period. It was around Dec 2015 ,Jan 2016.
+					 </p>
+
+					<h3>Merged/Open/Closed contributions in chronological order before GSoC 2016 </h3>
+					<p>
+					
+					<a href="https://github.com/sympy/sympy/pull/10215" >	#10215 </a>: some Usage/examples for 
+					<span style="background:#D6D6D4;color:#331460">srepr</span> and added some lines to show how 
+					<span style="background:#D6D6D4;color:#331460">repr</span> different from <span style="background:#D6D6D4;color:#331460">srepr</span> printing. <br>
+					<br>
+					<a href="https://github.com/sympy/sympy/pull/10311">#10311 </a> : Projects using SymPy in docs. <br><br>
+
+					<a href="https://github.com/sympy/sympy/pull/10312"> #10312 </a> : <a href="https://github.com/sympy/sympy/pull/10215"> #10215 </a>extended and added more usage/examples for <span style="background:#D6D6D4;color:#331460">srepr</span>. <br><br>
+
+					<a href="https://github.com/sympy/sympy/pull/10314/"> #10314 </a>: Dot printing examples and usage.<br><br>
+
+					<a href="https://github.com/sympy/sympy/pull/10319/"> #10319 </a> : Addition of namespaces, namespaces_default, translation for SciPy in <span style="background:#D6D6D4;color:#331460">lambdify.py</span>. <br><br>
+
+					<a href="https://github.com/sympy/sympy/pull/10330"> #10330 </a> : removal of <span style="background:#D6D6D4;color:#331460">guide.rst</span>. <br><br>
+
+					<a href="https://github.com/sympy/sympy/pull/10333">#10333 </a> : better comment at <span style="background:#D6D6D4;color:#331460">SymPy/interactive/tests/test_print_builtin_option</span>.<br><br>
+
+					<a href="https://github.com/sympy/sympy/pull/10370"> #10370 </a> : <span style="background:#D6D6D4;color:#331460">math.fabs()</span> converts its argument to float if it can (if it can't, it throws an exception). It then takes the absolute value, and returns the result as a float.
+						Fixes <a href="https://github.com/sympy/sympy/issues/9474"> #9474 </a><br><br>
+
+					<a href="https://github.com/sympy/sympy/pull/10385"> #10385 </a>: SymPy treated symbols having <span style="background:#D6D6D4;color:#331460">zero = True</span> assumption as non-negative & non-positive & real. But SymPy don't know; that is 0.It was not defined anywhere in SymPy. Previously line <span style="background:#D6D6D4;color:#331460">x = Symbol('x' ,zero=True)</span>, `x` was treated as symbol only, during execution and didn't took its value. Fixes <a href="https://github.com/sympy/sympy/issues/8167"> #8167 </a>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10407">#10407 </a>: In <span style="background:#D6D6D4;color:#331460">NumPy</span> <span style="background:#D6D6D4;color:#331460">amin</span> is defined as 
+						<span style="background:#D6D6D4;color:#331460">numpy.amin(a, axis=None, out=None, keepdims=False)</span>
+						So if we use `Min` and `Numpy` is installed in the system. Then
+						SymPy use NumPy for lambdify method.
+						So when we pass 
+						<span style="background:#D6D6D4;color:#331460">l(1, 2, 3)</span>
+						Then it takes ` a =1 ,axis=2,out=3`
+						where a is list of numbers for which we want minimum.
+						SymPy mapping with NumPy amin is not correct.
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10444">#10444 </a>: Integration of summation type expressions.
+						Fixes <a href="https://github.com/sympy/sympy/issues/7827">#7827 </a>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10460">#10460 </a>: <span style="background:#D6D6D4;color:#331460">Solveset</span> is now able to solve XFAIL test_issue_failing_pow. <span style="background:#D6D6D4;color:#331460">assert solveset(x**(S(3)/2) + 4, x, S.Reals) == S.EmptySet</span>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10482"> #10482 </a>: This is able to give solutions in reduced/simplified and known easy form in many cases. 
+						Fixes  <a href="https://github.com/sympy/sympy/issues/9834">#9824 </a> ,  <a href="https://github.com/sympy/sympy/issues/10426">#10426 </a>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10494"> #10494 </a>:  Few lines added in docs for <span style="background:#D6D6D4;color:#331460">Singleton</span> <span style="background:#D6D6D4;color:#331460">S</span>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10502">#10502 </a>: Needed a  list  which stores about if particular `cond` solution is added or not. Otherwise it may not add result , like previously if `cond` solution is not added but still [if condition] true (for this particular issue's testcase) and then it will mark <span style="background:#D6D6D4;color:#331460">matches_other_piece = True</span> so this solution couldn't be added into result 
+						 Fixes  <a href="https://github.com/sympy/sympy/issues/10122">#10122</a> 
+						 <br><br>
+					<a href="https://github.com/sympy/sympy/pull/10215">#10542 </a>: Need to pass if integral have symbolic upper and lower bound.
+						Fixes : <a href="https://github.com/sympy/sympy/issues/10215"> #10434 </a>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10547">#10547 </a>: Problem was <span style="background:#D6D6D4;color:#331460">Solveset</span>assuming that condition symbol is same as symbol for which it is finding solution. so there was problem when condition doesn't contains the solution symbol.
+						Now is storing the symbols of condition and defining the interval accordingly for all the symbols.
+						Fixes : <a href="https://github.com/sympy/sympy/issues/10534"> #10534 </a> 
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10215">#10550 </a>: solveset_real need to check symbol in piecewise-condition.Expression with multiple abs ,having Piecewise solution as 0.
+						Fixes :  <a href="https://github.com/sympy/sympy/issues/10122"> #10122 </a> and <a href="https://github.com/sympy/sympy/issues/10534">#10534</a>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10552">#10552 </a>: <span style="background:#D6D6D4;color:#331460">Solveset</span> hyperbolic Functions.
+
+					<span style="background:#D6D6D4;color:#331460"># complex solution</span>
+						<br>
+					<span style="background:#D6D6D4;color:#331460">>>> solveset(sinh(x))</span><br>
+						
+					<span style="background:#D6D6D4;color:#331460">{n⋅ⅈ⋅π | n∊ ℤ}</span><br>
+						
+					<span style="background:#D6D6D4;color:#331460"># Real solution</span><br>
+					
+					<span style="background:#D6D6D4;color:#331460">	>>> solveset(sinh(x), x, S.Reals)</span><br>
+					
+					<span style="background:#D6D6D4;color:#331460">{0}</span><br>
+					
+						Fixes  <a href="https://github.com/sympy/sympy/issues/9531">#9531</a> , <a href="https://github.com/sympy/sympy/issues/9824">#9824</a> , <a href="https://github.com/sympy/sympy/issues/10426">#10426</a>,  <a href="https://github.com/sympy/sympy/issues/7914">#7914 </a> and <a href="https://github.com/sympy/sympy/issues/9606">#9606</a>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10575">#10575 </a>: linsolve now able to solve unsimplified equations having constant variable.
+						Fixes :  <a href="https://github.com/sympy/sympy/issues/10568">#10568</a>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10579">#10579</a>: modified domain range if denominator is zero.
+						 Fixes <a href="https://github.com/sympy/sympy/issues/8715">#8715 </a>
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10622">#10622 </a>: Decompogen checking whether function contains `symbol` or not.
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10649">#10649</a>: replacing solver in some module.
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10689">#10689</a>: Real solution for some <span style="background:#D6D6D4;color:#331460">const**(symbol)</span> type equation.
+						Fixes Real solution for <a href="https://github.com/sympy/sympy/issues/10688">#10688</a> 
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10713">#10713</a>: Proposing a method to get general form for list of args.
+						<br><br>
+					<a href="https://github.com/sympy/sympy/pull/10733">#10733</a>: Rewriting <a href="https://github.com/sympy/sympy/pull/10552">#10552 </a>and <a href="https://github.com/sympy/sympy/pull/10482">#10482 </a>with extensions.
+						 Fixes <a href="https://github.com/sympy/sympy/issues/10671">#10671 </a>,  <a href="https://github.com/sympy/sympy/issues/7914">#7914</a> ,  <a href="https://github.com/sympy/sympy/issues/9531">#9531</a> ,  <a href="https://github.com/sympy/sympy/issues/9606">#9606</a> ,  <a href="https://github.com/sympy/sympy/issues/9824">#9824</a> , <a href="https://github.com/sympy/sympy/issues/10426">#10426</a> , <a href="https://github.com/sympy/sympy/issues/10217">#10217</a> and most of the XFAIL present in test_solveset.
+						 <br><br>
+					<a href="https://github.com/sympy/sympy/pull/10215">#10764</a>: TODO part of <a href="https://github.com/sympy/sympy/pull/10215">#10733</a>
+						 Fixes XFAIL test-cases and <a href="https://github.com/sympy/sympy/issues/7914">#7914</a>
+						 <br><br>
+					<a href="https://github.com/sympy/sympy/pull/10215">#10898</a>:  Implementing the logic of <a href="https://github.com/sympy/sympy/pull/10215">#10713</a> in solve_trigmethod insolveset.
+						This PR is able to give simplified solution for trigonometric equation.<br>
+						Example : <br>
+						<span style="background:#D6D6D4;color:#331460">>>>>print solveset(cos(x) +cos(3*x) + cos(5*x),x,S.Reals)</span><br>
+						
+						<span style="background:#D6D6D4;color:#331460">ImageSet(Lambda(_n, _n*pi/6),Integers())</span><br>
+						
+						
+						<br><br>
+						<a href="https://github.com/sympy/sympy/pull/10971">#10971</a> Fixes <a>#10864</a>
+							Old solver have _tsolve to solve transcendental equation, but in solveset _invert method can handle some works of the _tsolve method.
+							One of them could be:<br>
+
+							<span style="background:#D6D6D4;color:#331460">x =symbols('x' , positive = True)</span><br>
+							
+							<span style="background:#D6D6D4;color:#331460"> solveset(x**(y*z) - x,x,S.Reals)</span><br>
+							
+						
+						<br>
+						<a href="https://github.com/sympy/sympy/pull/10994"> #10994</a> Now solveset returns Integers solution for an equation using diophantine.py .
+						<br>
+						<span style="background:#D6D6D4;color:#331460"> >>> solveset(2*x + 3*y - 5, x, S.Integers)</span><br>
+
+<span style="background:#D6D6D4;color:#331460">{(3⋅t₀ - 5, -2⋅t₀ + 5) | t₀ ∊ ℤ}</span><br>
+
+
+<span style="background:#D6D6D4;color:#331460">>> solveset(2*x + 3*y - 5, domain=S.Integers)</span><br>
+
+<span style="background:#D6D6D4;color:#331460"{(3⋅t₀ - 5, -2⋅t₀ + 5) | t₀ ∊ ℤ}</span><br>
+
+						
+						<br>
+						<a href="https://github.com/sympy/sympy/pull/11008"> #11008</a> Fixes <a>#10876</a>
+						
+				
+						</p>
+						<h3>Bugs/issues reported</h3>
+					<p>
+						* <a href="https://github.com/sympy/sympy/issues/10033"> #10033</a> : Wrong answer by Inequality solver.
+						<br>
+						* <a href="https://github.com/sympy/sympy/issues/10313">#10313  </a>: Need good description about Dot printing.
+						<br>
+						* <a href="https://github.com/sympy/sympy/issues/10453"> #10453 </a> : Integrate return wrong answer (inverse trigonometric functions).
+						<br>
+						* <a href="https://github.com/sympy/sympy/issues/10568">#10568</a> : `linsolve` Returns `EmptySet` if equation is not simplified.
+						<br>
+						* <a href="https://github.com/sympy/sympy/issues/10688"> #10688</a> : Not able to solve some `const**(symbol)` type equation.
+						<br>
+						* <a href="https://github.com/sympy/sympy/issues/10864">#10864</a> : solveset(x**(y*z) - x,x,S.Reals)returns ConditionSet.
+						<br>
+					</p>
+
+					<h3>Getting ready to choose a Project</h3>
+					<p> As I am too much excited to work for SymPy all the time. Jan 2016 I started preparing the GSoC proposal. After these contribution the another major part was choosing a project and getting idea to improve certain module in SymPy.Then I started working on Project for the GSoC proposal.</p>
+					<p>
+					You can read about my Project in this blog :
+					<br>
+					<a href="gsoc16_project.html">GSoC 2016 Project</a>
+					</p>
+
+					<!-- <blockquote></blockquote>
+					<p><strong> <a href=""> </a></strong></p> -->
+				</div>
+			</article>
+
+
+		<div>
+		
+		<div id="disqus_thread"></div>
+			<script>
+			    /**
+			     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+			     */
+			    /*
+			    var disqus_config = function () {
+			        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+			        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			    };
+			    */
+			    var disqus_config = function () {
+			        this.page.url = 'http://s-hacker.info/blog/gsoc16/contributions.html';  // Replace PAGE_URL with your page's canonical URL variable
+			        this.page.identifier = 'gsoc16_contributions'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			    }
+				(function() {  // DON'T EDIT BELOW THIS LINE
+			        var d = document, s = d.createElement('script');
+			        
+			        s.src = '//channel-gettingstartedwithsympy.disqus.com/embed.js';
+			        
+			        s.setAttribute('data-timestamp', +new Date());
+			        (d.head || d.body).appendChild(s);
+			    })();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+			</noscript>
+
+
+			
+		</div><!-- /container -->
+		
+		<script src="../js/classie.js"></script>
+		<script>
+			(function() {
+
+				// detect if IE : from http://stackoverflow.com/a/16657946		
+				var ie = (function(){
+					var undef,rv = -1; // Return value assumes failure.
+					var ua = window.navigator.userAgent;
+					var msie = ua.indexOf('MSIE ');
+					var trident = ua.indexOf('Trident/');
+
+					if (msie > 0) {
+						// IE 10 or older => return version number
+						rv = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+					} else if (trident > 0) {
+						// IE 11 (or newer) => return version number
+						var rvNum = ua.indexOf('rv:');
+						rv = parseInt(ua.substring(rvNum + 3, ua.indexOf('.', rvNum)), 10);
+					}
+
+					return ((rv > -1) ? rv : undef);
+				}());
+
+
+				// disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179					
+				// left: 37, up: 38, right: 39, down: 40,
+				// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+				var keys = [32, 37, 38, 39, 40], wheelIter = 0;
+
+				function preventDefault(e) {
+					e = e || window.event;
+					if (e.preventDefault)
+					e.preventDefault();
+					e.returnValue = false;  
+				}
+
+				function keydown(e) {
+					for (var i = keys.length; i--;) {
+						if (e.keyCode === keys[i]) {
+							preventDefault(e);
+							return;
+						}
+					}
+				}
+
+				function touchmove(e) {
+					preventDefault(e);
+				}
+
+				function wheel(e) {
+					// for IE 
+					//if( ie ) {
+						//preventDefault(e);
+					//}
+				}
+
+				function disable_scroll() {
+					window.onmousewheel = document.onmousewheel = wheel;
+					document.onkeydown = keydown;
+					document.body.ontouchmove = touchmove;
+				}
+
+				function enable_scroll() {
+					window.onmousewheel = document.onmousewheel = document.onkeydown = document.body.ontouchmove = null;  
+				}
+
+				var docElem = window.document.documentElement,
+					scrollVal,
+					isRevealed, 
+					noscroll, 
+					isAnimating,
+					container = document.getElementById( 'container' ),
+					trigger = container.querySelector( 'button.trigger' );
+
+				function scrollY() {
+					return window.pageYOffset || docElem.scrollTop;
+				}
+				
+				function scrollPage() {
+					scrollVal = scrollY();
+					
+					if( noscroll && !ie ) {
+						if( scrollVal < 0 ) return false;
+						// keep it that way
+						window.scrollTo( 0, 0 );
+					}
+
+					if( classie.has( container, 'notrans' ) ) {
+						classie.remove( container, 'notrans' );
+						return false;
+					}
+
+					if( isAnimating ) {
+						return false;
+					}
+					
+					if( scrollVal <= 0 && isRevealed ) {
+						toggle(0);
+					}
+					else if( scrollVal > 0 && !isRevealed ){
+						toggle(1);
+					}
+				}
+
+				function toggle( reveal ) {
+					isAnimating = true;
+					
+					if( reveal ) {
+						classie.add( container, 'modify' );
+					}
+					else {
+						noscroll = true;
+						disable_scroll();
+						classie.remove( container, 'modify' );
+					}
+
+					// simulating the end of the transition:
+					setTimeout( function() {
+						isRevealed = !isRevealed;
+						isAnimating = false;
+						if( reveal ) {
+							noscroll = false;
+							enable_scroll();
+						}
+					}, 1000 );
+				}
+
+				// refreshing the page...
+				var pageScroll = scrollY();
+				noscroll = pageScroll === 0;
+				
+				disable_scroll();
+				
+				if( pageScroll ) {
+					isRevealed = true;
+					classie.add( container, 'notrans' );
+					classie.add( container, 'modify' );
+				}
+				
+				window.addEventListener( 'scroll', scrollPage );
+				trigger.addEventListener( 'click', function() { toggle( 'reveal' ); } );
+			})();
+		</script>
+
+
+		<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'myblogsample001';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+ <script id="dsq-count-scr" src="//channel-gettingstartedwithsympy.disqus.com/count.js" async></script>
+	</body>
+</html>

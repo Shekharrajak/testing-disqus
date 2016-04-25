@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Shekhar Prasad Rajak, GSoC'16, SymPy,Open Source Developer, CGBSE topper">
+
+		<meta http-equiv = "Content-Type" content = "text/html; charset = utf-8" />
+		<title> GSoC'16 Project </title>
+		<meta name="keywords" content="GSoC 2016 , Google Summer of Code,
+		Shekhar, Shekhar Prasad, Shekhar Prasad Rajak, NITW , NIT Warangal, Arjunda, CGBSE Topper, Blog, SymPy,
+		B.Tech CSE, Open Source, Contributor" />
+		<meta name="author" content="Shekhar Prasad Rajak" />
+		<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../css/component.css" />
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<script type = "text/javascript">
+			 $(window).load(function() {
+					$(".bg_loader").delay(500).fadeOut(500);
+			 });
+		</script>
+		  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+		<style>
+		/*LOADER*/
+			 .bg_loader { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #373B44; z-index: 9999; width: 100%; height: 100%; }
+			 .loader { position: absolute; z-index: 10000; width: 30px; height: 30px; top: 50%; left: 50%; margin:-15px 0 0 -15px; border: 3px solid #fff; opacity: 0;
+			 -webkit-border-radius: 30px;
+			 border-radius: 30px;
+			 -webkit-animation: loader 2s ease-out;
+			 animation: loader 2s ease-out;
+			 -webkit-animation-iteration-count: infinite;
+			 animation-iteration-count: infinite;
+			 }
+
+			 @-webkit-keyframes loader {
+			 0% { -webkit-transform: scale(0.1); opacity: 0; }
+			 50% { opacity: 1; }
+			 100%  { -webkit-transform: scale(1.2); opacity: 0; }
+			 }
+			 @keyframes loader {
+			 0% { transform: scale(0.1); opacity: 0; }
+			 50% { opacity: 1; }
+			 100%  { transform: scale(1.2); opacity: 0; }
+			 }
+
+			 .result img{
+			 	    width: 920px;
+    				height: 500px;
+    				border: 3px solid #73AD21;
+
+			 }
+
+			 body {
+            font-family: Ubuntu, "times new roman", times, roman, serif;
+         }
+		</style>
+		<link rel="shortcut icon" href="../../img/spr.png">
+	</head>
+	<body class="demo-6">
+	<div class="bg_loader"><div class="loader"></div></div>
+		<div id="container" class="container intro-effect-grid">
+			<!-- Top Navigation -->
+			
+			<header class="header">
+				<ul class="grid">
+					<a href="#"><li><h2></h2></li></a>
+				</ul>
+				<!-- <div class="bg-img" style="background-color:#2C3E50"><img src="../img/" alt="Background Image"/></div> -->
+				<div class="bg-img" style="background-color:#2C3E50"></div>
+
+			<div class="title">
+					
+					<h1>GSoC 2016 Application</h1>
+					<p class="subline"> Organization : SymPy <br> 
+						Solvers: Completing Solveset
+					</p>
+					<p>by <strong>Shekhar Prasad Rajak</strong> &#8212; Posted in on <strong>Apr 25, 2016</strong></p>
+					<a href="../index.html" style="margin-right:50%;">
+				      Back to main Blog
+				    </a>
+				    <a href="subcat.html" style="margin-left:0%;">
+				      Back to GSoC
+				    </a>
+				</div>
+			</header>
+			<button class="trigger" data-info="Go Down"><span>&#9660;</span></button>
+			<article class="content">
+			
+				<div>
+							    
+				    
+					<h3> Getting up for Project </h3>
+					<p> So it was around last week of Jan 2016. I had 2 personal chat with <a href="https://github.com/aktech"> Amit </a> (GSoC 2015) first one before starting the contribution and second was this time. I followed his advice, when I didn't know how to contribute to SymPy .</p>
+					<p> Now after the good contribution I asked some questions about Application process and Project for SymPy. According to his advice I started working on choosing the project as early as possible and discussing the ideas with senior developers.<br>
+					As I was interested and found some bugs on Solveset, Solvers module. So I decided to work on Solveset module and improve this.</p>
+					
+					<h3> sympy/solvers </h3>
+					<p>
+					<strong>Abstract of my application </strong><br>
+					" Solvers module is mostly used module, so it is very important that Solver works perfectly and give all solution. Harsh Gupta( GSoC 2014) and Amit Kumar (GSoC 2015) have worked on Solveset submodule. Solveset returns a set object and a set object takes care of all types of output. But to make Solveset fully functional, need to implement Non-linear multivariate Equation and System of multivariate Equation solver, System of Inequality solvers, Transcendental Equation solver and have to improve solve_trig, _invert methods . So in this summer I want to implement these remaining things, to complete Solveset."
+					</p>
+					<p></p>
+					
+					<h3> Discussions </h3>
+					<p> 
+						 I started discussion on Solveset and Solver module in SymPy. Thanks to all the active members in gitter chat room and mailing list, they helped me a lot to improve my ideas.
+						 Special thanks to <a href="https://github.com/asmeurer"> Aaron Meurer </a>,<a href="https://github.com/hargup"> Harsh Gupta </a>,<a href="https://github.com/aktech"> Amit Kumar </a>,<a href="https://github.com/jksuom"> Kalevi Suominen </a> ,<a href="https://github.com/smichr">Christopher Smith</a> and all others who helped me in gitter chat.
+					</p>
+
+					<p>
+					Threads: <br>
+						* <a href="https://groups.google.com/forum/#!topic/sympy/XhgBx2bVFaA"> mailing list</a><br>
+						* <a href="https://github.com/sympy/sympy/wiki/Solveset-and-Solver-Discussion">wiki/Solveset-and-Solver-Discussion</a><br>
+					</p>
+					
+					<p>
+						You can find my application here : <br>
+						<a href="https://github.com/sympy/sympy/wiki/GSoC-2016-Shekhar-Prasad-Rajak-Application:-Solvers:-Completing-Solveset"> Wiki page</a>
+					</p>
+					<h3>And this is the happiest moment of this journey </h3>
+				<div class ="result">
+					<img src="../img/result.png"/>
+				</div>
+					
+					<!-- <blockquote></blockquote>
+					<p><strong> <a href=""> </a></strong></p> -->
+				</div>
+			</article>
+				
+
+
+		<div>
+		
+			
+		</div><!-- /container -->
+		
+		<script src="../js/classie.js"></script>
+		<script>
+			(function() {
+
+				// detect if IE : from http://stackoverflow.com/a/16657946		
+				var ie = (function(){
+					var undef,rv = -1; // Return value assumes failure.
+					var ua = window.navigator.userAgent;
+					var msie = ua.indexOf('MSIE ');
+					var trident = ua.indexOf('Trident/');
+
+					if (msie > 0) {
+						// IE 10 or older => return version number
+						rv = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+					} else if (trident > 0) {
+						// IE 11 (or newer) => return version number
+						var rvNum = ua.indexOf('rv:');
+						rv = parseInt(ua.substring(rvNum + 3, ua.indexOf('.', rvNum)), 10);
+					}
+
+					return ((rv > -1) ? rv : undef);
+				}());
+
+
+				// disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179					
+				// left: 37, up: 38, right: 39, down: 40,
+				// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+				var keys = [32, 37, 38, 39, 40], wheelIter = 0;
+
+				function preventDefault(e) {
+					e = e || window.event;
+					if (e.preventDefault)
+					e.preventDefault();
+					e.returnValue = false;  
+				}
+
+				function keydown(e) {
+					for (var i = keys.length; i--;) {
+						if (e.keyCode === keys[i]) {
+							preventDefault(e);
+							return;
+						}
+					}
+				}
+
+				function touchmove(e) {
+					preventDefault(e);
+				}
+
+				function wheel(e) {
+					// for IE 
+					//if( ie ) {
+						//preventDefault(e);
+					//}
+				}
+
+				function disable_scroll() {
+					window.onmousewheel = document.onmousewheel = wheel;
+					document.onkeydown = keydown;
+					document.body.ontouchmove = touchmove;
+				}
+
+				function enable_scroll() {
+					window.onmousewheel = document.onmousewheel = document.onkeydown = document.body.ontouchmove = null;  
+				}
+
+				var docElem = window.document.documentElement,
+					scrollVal,
+					isRevealed, 
+					noscroll, 
+					isAnimating,
+					container = document.getElementById( 'container' ),
+					trigger = container.querySelector( 'button.trigger' );
+
+				function scrollY() {
+					return window.pageYOffset || docElem.scrollTop;
+				}
+				
+				function scrollPage() {
+					scrollVal = scrollY();
+					
+					if( noscroll && !ie ) {
+						if( scrollVal < 0 ) return false;
+						// keep it that way
+						window.scrollTo( 0, 0 );
+					}
+
+					if( classie.has( container, 'notrans' ) ) {
+						classie.remove( container, 'notrans' );
+						return false;
+					}
+
+					if( isAnimating ) {
+						return false;
+					}
+					
+					if( scrollVal <= 0 && isRevealed ) {
+						toggle(0);
+					}
+					else if( scrollVal > 0 && !isRevealed ){
+						toggle(1);
+					}
+				}
+
+				function toggle( reveal ) {
+					isAnimating = true;
+					
+					if( reveal ) {
+						classie.add( container, 'modify' );
+					}
+					else {
+						noscroll = true;
+						disable_scroll();
+						classie.remove( container, 'modify' );
+					}
+
+					// simulating the end of the transition:
+					setTimeout( function() {
+						isRevealed = !isRevealed;
+						isAnimating = false;
+						if( reveal ) {
+							noscroll = false;
+							enable_scroll();
+						}
+					}, 1000 );
+				}
+
+				// refreshing the page...
+				var pageScroll = scrollY();
+				noscroll = pageScroll === 0;
+				
+				disable_scroll();
+				
+				if( pageScroll ) {
+					isRevealed = true;
+					classie.add( container, 'notrans' );
+					classie.add( container, 'modify' );
+				}
+				
+				window.addEventListener( 'scroll', scrollPage );
+				trigger.addEventListener( 'click', function() { toggle( 'reveal' ); } );
+			})();
+		</script>
+
+
+		
+	</body>
+</html>
